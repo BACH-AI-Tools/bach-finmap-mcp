@@ -1,5 +1,5 @@
 {
-	"name": "finmap-mcp",
+	"name": "bach-finmap-mcp",
 	"version": "1.2.1",
 	"description": "MCP server providing financial market data from finmap.org",
 	"main": "./dist/stdio-server.js",
