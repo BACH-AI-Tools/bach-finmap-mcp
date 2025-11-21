@@ -2,6 +2,8 @@
 
 The finmap.org MCP server provides comprehensive historical data from the US, UK, Russian and Turkish stock exchanges. Access sectors, tickers, company profiles, market cap, volume, value, and trade counts, as well as treemap and histogram visualizations.
 
+> **基于原项目**: 此项目基于 [Finmap MCP Server]([https://github.com/ArtixZ/MCP-Google-Maps](https://github.com/finmap-org/mcp-server)) 修改而来
+
 ## Supported Exchanges
 
 | Exchange | Code | Country | Earliest Data | Update Frequency |
@@ -53,7 +55,7 @@ npx finmap-mcp
   "mcpServers": {
     "finmap": {
       "command": "npx",
-      "args": ["-y", "finmap-mcp"]
+      "args": ["-y", "bach-finmap-mcp"]
     }
   }
 }
